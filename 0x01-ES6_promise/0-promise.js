@@ -1,5 +1,5 @@
-import {uploadPhoto, createUser} from "./utils.js";
+import { uploadPhoto } from './utils';
 
 export default function getResponseFromAPI() {
-    return uploadPhoto();
-    };
+  return uploadPhoto();
+}
